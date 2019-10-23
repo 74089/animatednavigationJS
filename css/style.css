@@ -10,7 +10,7 @@ body{
   background: #555;
   color: #f1f1f1;
   height: 70px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .menuButton{
@@ -74,4 +74,24 @@ body{
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.wrapperStickyMenu{
+  position: fixed;
+  top: 20%;
+  height: 40%;
+  width: 100%;
+}
+
+
+div.stickyMenu {
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.6);
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
