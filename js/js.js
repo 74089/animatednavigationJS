@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 })
+
+
+function menuButton(x) {
+  x.classList.toggle("change");
+}

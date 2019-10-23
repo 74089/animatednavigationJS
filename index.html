@@ -5,28 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Animated Navigation</title>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/js.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/js.js"></script>
   </head>
   <body>
     <div class="top-container">
-      <h1>Animated Navigation</h1>
+      <center><h1>Animated Navigation</h1></center>
       <button onclick="test()">Test</button>
     </div>
 
     <div class="header" id="myHeader">
-      <h2>My Header</h2>
+      <div style="float: left;">
+        <h2>My Header</h2>
+      </div>
+      <div class="menuButton" style="float: right;">
+        <!-- <h2>My Header</h2> -->
+          <div class="container" onclick="menuButton(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+      </div>
     </div>
 
     <div class="content">
       <h1>content1</h1>
-    </div>    <!--
+    </div>
     <div class="content">
       <h1>content2</h1>
     </div>
     <div class="content">
-      <h1>content3</h1>
-    </div>
+      <div class="container" onclick="menuButton(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div><!--
     <div class="content">
       <h1>content4</h1>
     </div> -->
